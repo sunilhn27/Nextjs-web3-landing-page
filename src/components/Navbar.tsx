@@ -6,10 +6,19 @@ function Navbar() {
     <section className="my-6">
       <div>
         <nav className="flex flex-row justify-between md:mx-16 2xl:mx-12 ">
-          <Link href={"/"}>LOGO</Link>
+          <Link href={"/"} className="text-[1.4rem] font-bold">
+            LOGO
+          </Link>
           <div className="flex text-center items-center gap-8">
-            <Link href={"/"}>Sign in</Link>
-            <Link href={"/"} className="bg-[#DEF9FA]">Sign Up</Link>
+            <Link href={"/"} className="py-1 px-3">
+              Sign in
+            </Link>
+            <Link
+              href={"/"}
+              className="rounded-xl bg-gradient-to-br from-blue-200 to-teal-400 py-1 px-3"
+            >
+              Sign Up
+            </Link>
           </div>
         </nav>
       </div>
