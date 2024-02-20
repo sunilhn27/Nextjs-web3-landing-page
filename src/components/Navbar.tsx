@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <section className="my-6">
       <div>
-        <nav className="flex flex-row justify-between md:mx-16 2xl:mx-12 ">
+        <nav className="flex flex-row justify-between md:mx-20 2xl:mx-80">
           <Link href={"/"} className="text-[1.4rem] font-bold">
             LOGO
           </Link>
